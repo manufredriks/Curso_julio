@@ -54,3 +54,5 @@ git config --global user.email""
 **.gitignore**: archivos ignorados al utilizar git add .
 
 **pull request**: compara si hay conflictos con los cambios que se producen en una rama con la rama principal. 
+
+#Markdown sheet
