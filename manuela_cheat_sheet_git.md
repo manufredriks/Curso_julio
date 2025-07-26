@@ -34,7 +34,17 @@ git config --global user.email""
 
 `git fetch`: trae los cambios del repositorio remoto **pero no los aplica** a tu rama actual. Sirve para ver si hay cambios nuevos en el remoto antes de hacer un `merge` o un `pull`.
 
-**git pull**: me trae informacion
+`git merge feature-branch`: fusiona los cambios de la rama feature-branch en tu rama actual.
+
+`git stash`: guarda tus cambios no comprometidos para que puedas cambiar de rama o trabajar en otra tarea sin perderlos. Para recuperar los cambios: `git stash apply`.
+
+`git log`: muestra el historial de commits con detalles como el hash del commit, autor, fecha y mensaje del commit. Para una versión más corta: `git log --oneline`
+
+` git reset --hard HEAD~1`: deshace el último commit y restaura el estado del repositorio al commit anterior. La opción `--hard` también elimina los cambios en los archivos de trabajo.
+
+**git pull**: me trae informacion. 
+
+**git pull origin main**: descarga los cambios de la rama main del repositorio remoto origin y los fusiona en tu rama local actual.
 
 **.gitignore**: archivos ignorados al utilizar git add .
 
