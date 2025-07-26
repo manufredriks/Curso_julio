@@ -1,9 +1,14 @@
-# Git y Github: comandos
+# Curso de Git y Github: 
 
-### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
+Tabla de contenidos
+
+- [Git y Github](#git-y-github)
+  - [Configuracion de Git](###configuracion-de-git)
 
 **git** es control de versiones
 **github** es el sitiopara trabajar en equipo con git, son repositorios remotos
+
+###### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
 
 ``` Configuraciones
 git config user.name
