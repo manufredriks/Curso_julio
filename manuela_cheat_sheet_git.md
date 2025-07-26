@@ -1,6 +1,6 @@
 # Git y Github: comandos
 
-####La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
+### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
 
 **git** es control de versiones
 **github** es el sitiopara trabajar en equipo con git, son repositorios remotos
