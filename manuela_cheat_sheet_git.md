@@ -3,13 +3,14 @@
 La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
 
 ---
-
 ## git es control de versiones
 ## github es el sitiopara trabajar en equipo con git, son repositorios remotos
----configuraciones
-# git config user.name
-# git config --global user.name""
-# git config --global user.email""
+``` Configuraciones
+git config user.name
+git config --global user.name""
+git config --global user.email""
+```
+
 ---
 # `git init` : inicializa un repositorio local en la PC.
 # `git remote add oriin www...`: conecta el repositorio local al de la nube.
