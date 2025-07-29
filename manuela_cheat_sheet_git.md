@@ -4,25 +4,32 @@ Tabla de contenidos
 
 - [Git y Github](#git-y-github)
   - [Configuracion de Git](###configuracion-de-git)
+  - [Repositorio remoto](###repositorio-remoto)
+    
+# Git y Github
 
-**git** es control de versiones
+..* **git** es control de versiones
 
-**github** es el sitiopara trabajar en equipo con git, son repositorios remotos
+..* **github** es el sitiopara trabajar en equipo con git, son repositorios remotos
 
 ###### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
+
+# Configuracion de Git
 
 ``` Configuraciones
 git config user.name
 git config --global user.name""
 git config --global user.email""
 ```
-`git init` : inicializa un repositorio local en la PC.
++ `git init` : inicializa un repositorio local en la PC o reinicia uno existente (verificar que estemos en la carpeta correcta).
 
-`git remote add oriin www...`: conecta el repositorio local al de la nube.
++ `git remote add oriin www...`: conecta el repositorio local al de la nube.
 
-`git clone <URL-del-repositorio>`: clona el repositorio remoto que creamos en GitHub.
+# Repositorio remoto
 
-`git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL). Si estas conectado a un repositorio remoto, te va a indicar que esa URL se usa para fetch: traer cambios desde GitHub a tu compu (git pull) y
++ `git clone <URL-del-repositorio>`: clona el repositorio remoto que creamos en GitHub.
+
++ `git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL). Si estas conectado a un repositorio remoto, te va a indicar que esa URL se usa para fetch: traer cambios desde GitHub a tu compu (git pull) y
 push: enviar tus commits desde tu compu a GitHub (git push).
 
 `git branch` :muestra en qué rama estamos trabajando actualmente.
