@@ -42,8 +42,7 @@ push: enviar tus commits desde tu compu a GitHub (git push).
 + `git branch` : Muestra las ramas existentes en tu repositorio actual.
 Te indica en qué rama estás trabajando con un *.
 
-+ `git branch -M main` : enombra la rama actual a main, forzando el cambio incluso si main ya existe.
-La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez de main, utilizo nombre_rama, se renombra la rama actual a nombre_rama.
++ `git branch -M main` : renombra la rama actual a main, forzando el cambio incluso si main ya existe. La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez de main, utilizo nombre_rama, se renombra la rama actual a nombre_rama.
 
   👉 Útil si estás en una rama llamada master y querés seguir la convención moderna de usar main.
 
@@ -68,8 +67,7 @@ La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez 
 + `git push`: sube tus cambios de la rama actual al repositorio remoto (si ya está configurado).
 Toma los commits que hiciste localmente con `git commit` y los envía al servidor remoto (por ejemplo, GitHub).
 
-  Pero **si es la primera vez que hacés push** de esa rama, `git push -u origin <nombre_rama>`. Lo que significa que sube tu rama <nombre_Rama>(puede ser main) al remoto origin, es decir, asocia esa rama local con la remota (hace "tracking").
-Después de eso, sí podés usar simplemente `git push` y Git ya sabe que debe empujar main a origin/main.
+  Pero **si es la primera vez que hacés push** de esa rama, se utiliza `git push -u origin <nombre_rama>`. Lo que significa que sube tu rama <nombre_Rama> (puede ser main) al remoto origin, es decir, asocia esa rama local con la remota ( **tracking**). Después de eso, sí podés usar simplemente `git push` y Git ya sabe que debe empujar main a origin/main.
 
 + `git fetch`: trae los cambios del repositorio remoto **pero no los aplica** a tu rama actual. Sirve para ver si hay cambios nuevos en el remoto antes de hacer un `merge` o un `pull`.
 
