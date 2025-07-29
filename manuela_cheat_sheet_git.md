@@ -25,6 +25,7 @@ git config --global user.name""
 git config --global user.email""
 ```
 + `mkdir`: creamos la carpeta donde queremos guardar el repositorio local en nuestra pc. Opcional(si estamos desde temrinal crear un archivo README.md con el comando echo "#Github..." >> README.md
+  
 + `git init` : inicializa un repositorio local en la PC o reinicia uno existente (verificar que estemos en la carpeta correcta).
 
 + `git remote add oriin www...`: conecta el repositorio local al de la nube.
@@ -65,6 +66,7 @@ La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez 
 
 + `git push`: sube tus cambios de la rama actual al repositorio remoto (si ya está configurado).
 Toma los commits que hiciste localmente con `git commit` y los envía al servidor remoto (por ejemplo, GitHub).
+
 Pero **si es la primera vez que hacés push** de esa rama, `git push -u origin <nombre_rama>`. Lo que significa que sube tu rama <nombre_Rama>(puede ser main) al remoto origin, es decir, asocia esa rama local con la remota (hace "tracking").
 Después de eso, sí podés usar simplemente `git push` y Git ya sabe que debe empujar main a origin/main.
 
