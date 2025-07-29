@@ -22,7 +22,8 @@ git config --global user.email""
 
 `git clone <URL-del-repositorio>`: clona el repositorio remoto que creamos en GitHub.
 
-`git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL).
+`git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL). Si estas conectado a un repositorio remoto, te va a indicar que esa URL se usa para fetch: traer cambios desde GitHub a tu compu (git pull) y
+push: enviar tus commits desde tu compu a GitHub (git push).
 
 `git branch` :muestra en qué rama estamos trabajando actualmente.
 
