@@ -7,11 +7,11 @@ Tabla de contenidos
   - [Repositorio remoto](#repositorio-remoto)
     
 # Git y Github
-```
-..* **git** es control de versiones
 
-..* **github** es el sitiopara trabajar en equipo con git, son repositorios remotos
-```
+* **git** es control de versiones
+
+* **github** es el sitiopara trabajar en equipo con git, son repositorios remotos
+
 ###### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
 
 ### Configuracion de Git
