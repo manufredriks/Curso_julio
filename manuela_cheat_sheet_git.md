@@ -3,8 +3,8 @@
 Tabla de contenidos
 
 - [Git y Github](#git-y-github)
-  - [Configuracion de Git](###configuracion-de-git)
-  - [Repositorio remoto](###repositorio-remoto)
+  - [Configuracion de Git](#configuracion-de-git)
+  - [Repositorio remoto](#repositorio-remoto)
     
 # Git y Github
 
