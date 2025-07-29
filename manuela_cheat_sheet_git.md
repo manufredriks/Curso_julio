@@ -14,7 +14,7 @@ Tabla de contenidos
 
 ###### La idea es que yo tengo un repositorio local y voy enviando los cambios que quiera al remoto. Allí deben ser aceptados si no hay problemas.
 
-# Configuracion de Git
+## Configuracion de Git
 
 ``` Configuraciones
 git config user.name
@@ -25,7 +25,7 @@ git config --global user.email""
 
 + `git remote add oriin www...`: conecta el repositorio local al de la nube.
 
-# Repositorio remoto
+## Repositorio remoto
 
 + `git clone <URL-del-repositorio>`: clona el repositorio remoto que creamos en GitHub.
 
