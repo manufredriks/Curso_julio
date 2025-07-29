@@ -44,6 +44,7 @@ Te indica en qué rama estás trabajando con un *.
 
 + `git branch -M main` : enombra la rama actual a main, forzando el cambio incluso si main ya existe.
 La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez de main, utilizo nombre_rama, se renombra la rama actual a nombre_rama.
+
 👉 Útil si estás en una rama llamada master y querés seguir la convención moderna de usar main.
 
 + `git branch <nombre_rama>`: crea la nueva rama nombre_rama, pero no cambia a esa rama. En versiones viejas, antes de cambiar de rama tenes que salir de la que trabajas con `git checkout <nombre_rama>`. Pero en versiones actuales, se usa `git switch`.
