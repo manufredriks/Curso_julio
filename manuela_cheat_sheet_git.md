@@ -7,7 +7,7 @@ Tabla de contenidos
   - [Repositorio remoto](#repositorio-remoto)
   - [Ramas](#ramas)
   - [Agregar archivos](#agregar-archivos)
-  - [Comandos más usados](#comandos-mas-usados)
+- [Comandos más usados](#comandos-mas-usados)
     
 # Git y Github
 
@@ -55,7 +55,7 @@ La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez 
 
 + `git add .`: agrega **todos los archivos modificados o nuevos** al staging area.
 
-### Comandos más usados
+# Comandos más usados
 
 + `git commit -m "titulo"-m "descripcion"`: toma los archivos que marcaste con `git add` (los *staged files*) y los guarda como un nuevo *snapshot* del proyecto, con un mensaje descriptivo de lo que hiciste. Envia la info a la nube.
 
