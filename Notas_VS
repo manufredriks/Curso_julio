@@ -1,0 +1,12 @@
+# Notas de trabajr con Visual Studio para ver commits pendientes
+
+1. Panel de Control de Fuente (Source Control)
+En VS Code, en la barra lateral izquierda, hacé clic en el icono de Source Control (un símbolo que parece un ramito o Y).
+
+Ahí vas a ver:
+
+Archivos modificados (cambios sin stage).
+
+Archivos en stage (preparados para commit).
+
+Un botón para hacer commit con mensaje.
