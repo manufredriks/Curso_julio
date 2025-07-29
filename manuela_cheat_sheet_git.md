@@ -22,6 +22,8 @@ git config --global user.email""
 
 `git clone <URL-del-repositorio>`: clona el repositorio remoto que creamos en GitHub.
 
+`git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL).
+
 `git branch` :muestra en qué rama estamos trabajando actualmente.
 
 `git branch -M` : crea una nueva rama
@@ -35,8 +37,6 @@ git config --global user.email""
 `git commit -m "mensaje"`: toma los archivos que marcaste con `git add` (los *staged files*) y los guarda como un nuevo *snapshot* del proyecto, con un mensaje descriptivo de lo que hiciste. Envia la info a la nube.
 
 `git push`: sube tus cambios locales al repositorio remoto. Toma los commits que hiciste localmente con `git commit` y los envía al servidor remoto (por ejemplo, GitHub).
-
-`git remote -v` : muestra a qué repositorio remoto está conectado tu repositorio local (y con qué URL).
 
 `git fetch`: trae los cambios del repositorio remoto **pero no los aplica** a tu rama actual. Sirve para ver si hay cambios nuevos en el remoto antes de hacer un `merge` o un `pull`.
 
