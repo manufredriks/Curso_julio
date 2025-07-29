@@ -59,6 +59,10 @@ La -M es como -m (rename), pero con mayúscula, que fuerza el cambio. Si en vez 
 
 + `git commit -m "titulo"-m "descripcion"`: toma los archivos que marcaste con `git add` (los *staged files*) y los guarda como un nuevo *snapshot* del proyecto, con un mensaje descriptivo de lo que hiciste. Envia la info a la nube.
 
++ `git status`: muestra cambios no añadidos (Untracked files), Cambios en stage (Changes to be committed) y la rama en la que estás y si tu rama está adelante o atrás respecto al remoto.
+   ..* Untracked files: Los primeros son archivos nuevos en tu carpeta de trabajo que Git no conoce todavía, por ejemplo, si creás un archivo nuevo y no hiciste git add, aparecerá como untracked.
+  ..* Changes to be committed (cambios preparados para commit / staged). Son archivos que hiciste git add y por eso están en el área de staging. Estos cambios sí serán incluidos en el próximo commit.
+
 + `git push`: sube tus cambios de la rama actual al repositorio remoto (si ya está configurado).
 Toma los commits que hiciste localmente con `git commit` y los envía al servidor remoto (por ejemplo, GitHub).
 Pero **si es la primera vez que hacés push** de esa rama, `git push -u origin <nombre_rama>`. Lo que significa que sube tu rama <nombre_Rama>(puede ser main) al remoto origin, es decir, asocia esa rama local con la remota (hace "tracking").
